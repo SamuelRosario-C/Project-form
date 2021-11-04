@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+    <link rel="stylesheet" href="./assets/Form.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <label for="myName">Nome</label>
+        <input type="text" name="myName" autofocus required>
+
+        <label for="myEmail">Email</label>
+        <input type="email" name="myEmail" required>
+
+        <label for="myAge">Idade</label>
+        <input type="number" name="myAge" min="12" max="100" style=width:50px; required>
+
+        <label for="Dateofbirth">Data de Nascimento</label>
+        <input type="date" name="Dateofbirth" required min="12" step="1">
+
+        <label class="Form-myacc">Onde você possui conta:</label>
+        <label>
+            <input type="checkbox" name="instagram" id="socialNetwork"> Instagram
+        </label>
+
+        <label>
+            <input type="checkbox" name="facebook" id="socialNetwork"> Facebook
+        </label>
+
+        <label>
+            <input type="checkbox" name="youtube" id="socialNetwork"> Youtube
+        </label>
+
+        <label class="Form-sex" for="mySex">Sexo</label>
+        <input type="radio" id="M" name="mySex" value="M">
+        <label for="M">Masculino</label>
+        <input type="radio" id="F" name="mySex" value="F">
+        <label for="F">Feminino</label>
+
+        <Div class="color">
+            <label for="myColor">Cor dos olhos:</label>
+            <input type="color" name="myColor" id="myColor" required>
+        </Div>
+
+        <label for="myBio">Biografia</label>
+        <textarea name="myBio" cols="30" rows="5" required></textarea>
+
+        <label for="myPhoto">Foto de Perfil</label>
+        <input type="file" name="myPhoto" accept="Images/*" required>
+
+        <label for="myPhone">Telefone</label>
+        <input type="tel" name="myPhone" required>
+
+        <label for="myLinkFacebook">Link do Perfil do Facebook</label>
+        <input type="url" name="myLinkFacebook" required>
+
+        <label for="myPassword">Senha</label>
+        <input type="password" name="myPassword" min="6" max="8" required>
+
+        <button type="reset" name="reset" id="reset">Limpar</button>
+
+        <button type="submit" name="submit" id="submit">Enviar Dados</button>
+    </form>
+
+</body>
+
+</html>
