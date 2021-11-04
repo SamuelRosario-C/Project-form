@@ -1,6 +1,6 @@
 # Project-form
 
-<img src="./xForm.png" width="800px" alt="aba Form">
+<img src="./xForm.png" width="800px">
 
 ### Ajustes e melhorias
 
